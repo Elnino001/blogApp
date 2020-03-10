@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{%block title %}{{details.title}}{%endblock %}
+{%block content %}
+<a href="{% url 'home' %}"><h2>{{details.title}}</h2></a>
+<p>{{details.body}}</p>
+{%endblock %}
